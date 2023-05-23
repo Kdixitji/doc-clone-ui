@@ -1,0 +1,156 @@
+.header {
+    width: auto;
+    display:inherit;
+    align-items: center;
+    background-color: rgba(245, 240, 240, 0.993);
+}
+
+.left {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction:row;
+    padding: 1rem;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: -307px;
+    z-index: 3;
+}
+
+.nav-menu li {
+    padding: 0.9rem 0.5rem;
+    padding-top: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    float: left;
+    height: 3px;
+}
+
+.nav-menu li:hover{
+    background-color: rgb(228, 224, 224);
+    border-radius: 3px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.file-name{
+    color: #4a5568;
+    font-size: 1.2rem;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #4a5568;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 3px;
+    position:absolute;
+    z-index: 1;
+    top: 100%;
+    left: 30%;
+    font-size: 0.8rem;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    display: block;
+    border-radius: 6px;
+}
+
+.s-icons {
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -3px;
+    margin-left: 8px;
+    height: 18px;
+    width: 18px;
+    justify-content: space-evenly;
+    color: #4a5568;
+}
+
+.right {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction:row;
+    padding: 1rem;
+    float: right;
+    margin-top: -75px;
+}
+
+.G-icons {
+    padding: 0.2rem;
+    margin-top: 5px;
+}
+
+.share-btn {
+    position: relative;
+    background-color: #ace2f0f8;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 0.4rem 1rem;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.share-text {
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.share-btn:hover{
+    box-shadow: 0px 2px 3px 2px #6e6e6e;
+    background-color: #cbecf5f8;
+}
+
+.lock-icon {
+    padding-right: 0.4rem;
+    margin-top: 1px;
+}
+
+.r-icons {
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-left: 8px;
+    justify-content: space-evenly;
+    color: #4a5568;
+}
+
+.chat-btn {
+    background-color: white;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 0.4rem 1rem;
+    margin-left: 1.2rem;
+}
+.chat-btn:hover {
+    background-color: #e7ebebf8;    
+}
+
+.video {
+    padding-right: 0.4rem;
+}
